@@ -1,0 +1,121 @@
+html,
+body {
+    height:100%;
+    margin:0
+}
+#viewport {
+    min-height:100%;
+    position:relative;
+    width:100%
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#navbar {
+    display: inline-flex;
+    position: fixed;
+
+    padding: 1rem;
+    width: 100%;
+
+    font-size: .8rem;
+}
+
+#navbar a{
+    color: black;
+}
+
+#navbar-left {
+    width: 30%;
+    margin: auto;
+    float: left;
+}
+
+#navbar-right {
+    width: 70%;
+    float: right;
+
+    text-align: right;
+    margin: 0 2rem 0 0;
+}
+
+#signin {
+    background: rgb(63, 127, 191);
+    border: none;
+    padding: 8px;
+    border-radius: 10%;
+    font-weight: 800;
+}
+
+#signin a{
+    color: white;
+}
+
+#main {
+    margin: auto;   
+    width: 50%;
+    text-align: center;
+    padding: 12rem 0 0 0;
+}
+
+#logo {
+    padding: 0 0 35px 0;
+}
+
+#search {
+    margin: auto;
+    width: 90%;
+}
+
+#search input[type="text"] {
+    background: url('https://image.flaticon.com/icons/svg/1828/1828048.svg');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    padding: 1%;
+    margin: 0 auto;
+}
+
+#buttons-wrapper {
+    padding: 25px 0 0 0;
+}
+
+.buttons {
+    border-style: none;
+    padding: 10px;
+    background-color: rgba(226, 226, 226, 0.486);
+    border-radius: 10%;
+    font-size: 1.02rem;
+}
+
+#footer {
+    display: inline-flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+    font-size: .8rem;
+
+    padding: .8rem;
+
+    background-color: rgba(226, 226, 226, 0.486);
+}
+
+#footer-left {
+    width: 50%;
+}
+
+#footer-right {
+    width: 50%;
+    float: right;
+
+    text-align: right;
+    margin: 0 1rem 0 0;
+}
